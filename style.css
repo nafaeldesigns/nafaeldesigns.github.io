@@ -18,6 +18,10 @@ a{
     align-items: center;
     justify-content: center;
 }
+i{
+    font-size: 40px;
+    margin-top: 30px;
+}
 
 /* home */
 #home{
@@ -26,7 +30,6 @@ a{
     background-position: top center;
     position: relative;
 }
-
 #home .home{
     max-width: 1200px;
     margin: 0 auto;
@@ -95,6 +98,18 @@ a{
 }
 /* end home */
 
+/* footer */
+#footer .footer{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer .social-icons{
+    display: flex;
+    margin-bottom: 30px;
+}
+/* end footer */
 
 /* keyframs */
 @keyframes text_reveal_box{
