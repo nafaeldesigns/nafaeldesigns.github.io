@@ -8,9 +8,21 @@ html{
     font-size:  10px;
     font-family: 'monstserrat', sans-serif;
 }
+
 a{
     text-decoration: none;
 }
+ul{
+    display: flex;
+}
+ul a li{
+    position: relative;
+    display: block;
+    color:#fff;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
 .container {
     min-height: 100vh;
     width: 100%;
@@ -18,10 +30,7 @@ a{
     align-items: center;
     justify-content: center;
 }
-i{
-    font-size: 40px;
-    margin-top: 30px;
-}
+
 
 /* home */
 #home{
@@ -89,6 +98,7 @@ i{
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
+    margin-bottom: 60px;
     transition: .3s ease background-color;
     font-family: righteous;
 }
@@ -96,19 +106,11 @@ i{
     color: white;
     background-color: crimson;
 }
+
 /* end home */
 
 /* footer */
-#footer .footer{
-    min-height: 200px;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-#footer .social-icons{
-    display: flex;
-    margin-bottom: 30px;
-}
+
 /* end footer */
 
 /* keyframs */
